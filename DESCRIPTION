@@ -1,11 +1,20 @@
 Package: DeCuba
-Title: Simple Calculations
+Title: Simple Arithmetic and Utility Functions
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: This package is an introduction to creating a package in 'R'
-              using simple calculation functions
+    person(given = "Max",
+           family = "De Cuba",
+           email = "mjdecuba@usf.edu",
+           role = c("aut", "cre"))
+Description: A beginner R package that includes simple arithmetic 
+    functions (addition, subtraction, multiplication, division) and utility 
+    tools for quick calculations. Designed to demonstrate basic R package 
+    structure and documentation.
 License: MIT + file LICENSE
 Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.5.0)
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
+URL: https://github.com/MJDCuba/
+BugReports: https://github.com/MJDCuba/
